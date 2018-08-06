@@ -3,13 +3,47 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  color: MediumAquamarine;
 }
 
 nav {
-  display: inline-inline-block;
+  width: 200px;
 }
 
 header img {
-  display: flex;
+  /*display: flex;*/
   color: MediumAquamarine;
+}
+
+header a {
+  color: black;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+}
+
+li {
+}
+
+div.logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+div.title {
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  flex-grow: 1;
+}
+
+div.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
 }
