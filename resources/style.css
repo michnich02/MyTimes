@@ -1,10 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
-  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: white;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 10px solid red;
+  position: fixed;
+  width: 100%;
 }
 
 nav {
@@ -27,9 +45,6 @@ nav ul {
   justify-content: space-between;
 }
 
-li {
-}
-
 div {
   border: 1px solid black;
 }
@@ -50,13 +65,14 @@ div {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 50px;
+  padding-right: 50px;
 }
 
 .maincontent {
   display: flex;
   justify-content: center;
-
+  position: relative;
+  top: 120px;
 }
 
 .main {
@@ -83,10 +99,6 @@ div {
   flex-direction: column;
 }
 
-.concert {
-  background-image: url("./images/img-story-main.png");
-}
-
 .phototext {
   font-family: Georgia;
   font-weight: bold;
@@ -95,20 +107,42 @@ div {
   display: flex;
   justify-content: center;
   text-align: center;
+  padding: 0px 10px;
+  margin-top: 15px;
+}
+
+.concert {
+  background-image: url("./images/img-story-main.png");
+  height: 300px;
+  margin-top: 0px;
 }
 
 .concert p {
   font-size: 40px;
+  text-align: left;
 }
 
 .earth {
   background-image: url("./images/img-story-2.png");
+  height: 300px;
+  width: 300px;
 }
 
 .research {
   background-image: url("./images/img-story-3.png");
+  height: 300px;
+  width: 300px;
+}
+
+.orca {
+  width: 300px;
+}
+
+.burger {
+  width: 300px;
 }
 
 .cats {
   background-image: url("./images/img-story-1.png");
+  height: 300px;
 }
