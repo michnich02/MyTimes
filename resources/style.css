@@ -170,3 +170,26 @@ div {
   justify-content: space-between;
   width: 300px;
 }
+
+.newsbites {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.newsbites h1 {
+    text-align: center;
+}
+
+.newsbites ul {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  list-style: none;
+  margin-top: 40px;
+}
+
+.newsbites li {
+  border-bottom: 1px solid black;
+  padding: 10px 20px;
+}
