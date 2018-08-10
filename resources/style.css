@@ -195,18 +195,29 @@ div {
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
   z-index: 15;
-  padding: 100px;
   position: relative;
-  top: 0px;
+  top: 200px;
   left: 0px;
+  padding: 100px;
+}
+
+.topfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomfooter {
+  text-align: center;
+}
+
+footer a {
+  color: black;
 }
 
 span {
