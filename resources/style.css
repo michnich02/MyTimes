@@ -19,10 +19,8 @@ header {
   margin-bottom: 10px;
 }
 
-hr {
-  border: 10px solid red;
-  position: fixed;
-  width: 100%;
+p {
+  margin-top: 20px;
 }
 
 nav {
@@ -46,7 +44,8 @@ nav ul {
 }
 
 div {
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  /* margin-bottom: 20px; */
 }
 
 .logo {
@@ -108,13 +107,13 @@ div {
   justify-content: center;
   text-align: center;
   padding: 0px 10px;
-  margin-top: 15px;
 }
 
 .concert {
   background-image: url("./images/img-story-main.png");
   height: 300px;
-  margin-top: 0px;
+  display: flex;
+  align-items: center;
 }
 
 .concert p {
@@ -125,24 +124,49 @@ div {
 .earth {
   background-image: url("./images/img-story-2.png");
   height: 300px;
-  width: 300px;
+  display: flex;
+  align-items: center;
 }
 
 .research {
   background-image: url("./images/img-story-3.png");
   height: 300px;
-  width: 300px;
+  display: flex;
+  align-items: center;
 }
 
 .orca {
-  width: 300px;
+  display: flex;
+  width: 299px;
+  /* height: 300px; */
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .burger {
-  width: 300px;
+  display: flex;
+  width: 299px;
+  /* height: 300px; */
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .cats {
   background-image: url("./images/img-story-1.png");
   height: 300px;
+}
+
+.allsubs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sub {
+  margin-top: 20px;
+  /* border: 3px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 300px;
 }
